@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Budget-tracker</title>
+</head>
+<body>
+  <div class="container">
+
+    <div id="form" class="card"> 
+      
+    <div>
+      <input type="number"  id="amount" placeholder="Enter amount :">
+    </div>
+    <div>
+      <button id="add-amount" type="submit">Add amount</button>
+      <button id="edit-amount" >Edit</button>
+      <button id="cancel-edit" >Cancel</button>
+    </div>
+      <!-- ======================= -->
+    </div>
+    <div class="card">
+     <div><span class="type " id="income">Income:0</span></div>
+     <div> <span class="type "id="expense">Expense:0</span></div>
+<!-- ============================= -->
+    </div>
+
+
+    <div class="amountList " id="amountList">
+      <!-- <div class="item">
+        
+          <span>200</span> 
+          <span>type:</span> 
+          <span>
+            <button>Delete</button>&nbsp
+            <button>Edit</button>
+          </span>
+     
+      </div> -->
+  
+
+      <!-- ================= -->
+    </div>
+
+    <!-- container ends -->
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
